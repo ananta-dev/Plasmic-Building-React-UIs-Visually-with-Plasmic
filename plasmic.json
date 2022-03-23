@@ -1,0 +1,392 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "rP5KxAshUTdmscUyP4SP8d",
+      "projectApiToken": "BH84k3J0VnJmP5MMu3mtYlJDBSBTEUp5EC8sitwwO9oFkitUP1OjqP8ENFkAmJ0h1wsgcCQVCi7LjLUShLsg",
+      "projectName": "Minerva Apps",
+      "version": "latest",
+      "cssFilePath": "plasmic/minerva_apps/plasmic_minerva_apps.module.css",
+      "components": [
+        {
+          "id": "kfCp1CQJ7i0Y",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "rP5KxAshUTdmscUyP4SP8d",
+          "renderModuleFilePath": "plasmic/minerva_apps/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/minerva_apps/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "JGQIj-gnzM",
+          "name": "TodoApp",
+          "type": "managed",
+          "projectId": "rP5KxAshUTdmscUyP4SP8d",
+          "renderModuleFilePath": "plasmic/minerva_apps/PlasmicTodoApp.jsx",
+          "importSpec": {
+            "modulePath": "TodoApp.jsx"
+          },
+          "cssFilePath": "plasmic/minerva_apps/PlasmicTodoApp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "eOeMAL5zug",
+          "name": "Task",
+          "type": "managed",
+          "projectId": "rP5KxAshUTdmscUyP4SP8d",
+          "renderModuleFilePath": "plasmic/minerva_apps/PlasmicTask.jsx",
+          "importSpec": {
+            "modulePath": "Task.jsx"
+          },
+          "cssFilePath": "plasmic/minerva_apps/PlasmicTask.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "WTNrqRi8Cw7Ex",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "uDRvZwo4OX7Gz",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "981PH2H60W",
+          "name": "OverviewBackgroundIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__OverviewBackground.jsx"
+        },
+        {
+          "id": "rIpgD97efl",
+          "name": "BtnIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Btn.jsx"
+        },
+        {
+          "id": "eVNLGivtDEf",
+          "name": "Btn2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Btn2.jsx"
+        },
+        {
+          "id": "tDJKTJC5h9n",
+          "name": "SearchIconIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__SearchIcon.jsx"
+        },
+        {
+          "id": "8KLuKzsfkWZ",
+          "name": "Form1Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form1.jsx"
+        },
+        {
+          "id": "NkgIS05FIGe",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "_eUQgg2O_6j",
+          "name": "AvatarIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Avatar.jsx"
+        },
+        {
+          "id": "iPKdUmkRbS2",
+          "name": "IconBgIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__IconBg.jsx"
+        },
+        {
+          "id": "tb9UYpvIEIc",
+          "name": "Form2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form2.jsx"
+        },
+        {
+          "id": "hJS4dRoILID",
+          "name": "Ellipse3Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Ellipse3.jsx"
+        },
+        {
+          "id": "wch_SsmVqsb",
+          "name": "ArrowIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Arrow.jsx"
+        },
+        {
+          "id": "H6gCXU_IPgF",
+          "name": "Form3Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form3.jsx"
+        },
+        {
+          "id": "qtTK3pimrUv",
+          "name": "Arrow2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Arrow2.jsx"
+        },
+        {
+          "id": "MJ8p9CNAvMG",
+          "name": "Form4Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form4.jsx"
+        },
+        {
+          "id": "UyQ5SbxiPBn",
+          "name": "Arrow3Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Arrow3.jsx"
+        },
+        {
+          "id": "u42oN_DpQ1E",
+          "name": "BoxForm2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__BoxForm2.jsx"
+        },
+        {
+          "id": "TluvFvO1zpf",
+          "name": "Form5Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form5.jsx"
+        },
+        {
+          "id": "zogUEiquWW5",
+          "name": "Form6Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form6.jsx"
+        },
+        {
+          "id": "QIBc0y-xZ-w",
+          "name": "DottedIconIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__DottedIcon.jsx"
+        },
+        {
+          "id": "uq8PJDUgscy",
+          "name": "Form7Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form7.jsx"
+        },
+        {
+          "id": "ZQxdsIMei9z",
+          "name": "_01Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon___01.jsx"
+        },
+        {
+          "id": "WhQFNpE-wl6",
+          "name": "_02Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon___02.jsx"
+        },
+        {
+          "id": "to0oXIMP1Wr",
+          "name": "Ellipse4Kopie12Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Ellipse4Kopie12.jsx"
+        },
+        {
+          "id": "XIS9e4V73Eq",
+          "name": "DotIcon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Dot.jsx"
+        },
+        {
+          "id": "T8Bj-Q2Ft-W",
+          "name": "BoxForm4Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__BoxForm4.jsx"
+        },
+        {
+          "id": "2ckOBwQOYhs",
+          "name": "Ellipse5Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Ellipse5.jsx"
+        },
+        {
+          "id": "nh6vQJ_qafm",
+          "name": "Arrow4Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Arrow4.jsx"
+        },
+        {
+          "id": "a3oPHpybwlBE",
+          "name": "Avatar2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Avatar2.jsx"
+        },
+        {
+          "id": "C_wuweC9py-S",
+          "name": "DottedIcon2Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__DottedIcon2.jsx"
+        },
+        {
+          "id": "_bYTvTCZ82MQ",
+          "name": "Form10Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form10.jsx"
+        },
+        {
+          "id": "My6sTxwvmEDo",
+          "name": "Form11Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form11.jsx"
+        },
+        {
+          "id": "TVrr8-0CNsuQ",
+          "name": "Form12Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form12.jsx"
+        },
+        {
+          "id": "bZDNWOVZNaKR",
+          "name": "Form13Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form13.jsx"
+        },
+        {
+          "id": "QqiBMRi2Qdgn",
+          "name": "Form14Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form14.jsx"
+        },
+        {
+          "id": "_VHmgcGQwrYh",
+          "name": "Form15Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Form15.jsx"
+        },
+        {
+          "id": "chtDVW6u1Q",
+          "name": "Btn6Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Btn6.jsx"
+        },
+        {
+          "id": "2PZPFt-mor",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/minerva_apps/icons/PlasmicIcon__Icon4.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "eSCM0IyAqrmti",
+          "name": "image.png",
+          "filePath": "plasmic/minerva_apps/images/imagepng.jpeg"
+        },
+        {
+          "id": "v3pU7IXjVB",
+          "name": "background",
+          "filePath": "plasmic/minerva_apps/images/background.png"
+        },
+        {
+          "id": "gj5bpFiURo",
+          "name": "logo",
+          "filePath": "plasmic/minerva_apps/images/logo.png"
+        },
+        {
+          "id": "rsh_E5276st",
+          "name": "icons",
+          "filePath": "plasmic/minerva_apps/images/icons.svg"
+        },
+        {
+          "id": "LWhwTMZR93Y",
+          "name": "BTN 3",
+          "filePath": "plasmic/minerva_apps/images/btn3.svg"
+        },
+        {
+          "id": "wotvJ_TSEhZ",
+          "name": "BTN 4",
+          "filePath": "plasmic/minerva_apps/images/btn4.svg"
+        },
+        {
+          "id": "0Hsm5FLl98J",
+          "name": "form",
+          "filePath": "plasmic/minerva_apps/images/form.svg"
+        },
+        {
+          "id": "HVVvMVoUj0X",
+          "name": "Ellipse 2",
+          "filePath": "plasmic/minerva_apps/images/ellipse2.svg"
+        },
+        {
+          "id": "Gcerb08rVCZ",
+          "name": "Gruppe 1",
+          "filePath": "plasmic/minerva_apps/images/gruppe1.svg"
+        },
+        {
+          "id": "X48rgBkiU9J",
+          "name": "box form",
+          "filePath": "plasmic/minerva_apps/images/boxForm.svg"
+        },
+        {
+          "id": "Fr-qHvXUNIZ",
+          "name": "box form 3",
+          "filePath": "plasmic/minerva_apps/images/boxForm3.svg"
+        },
+        {
+          "id": "hfcNtBqziZK",
+          "name": "BTN 5",
+          "filePath": "plasmic/minerva_apps/images/btn5.svg"
+        },
+        {
+          "id": "mVQKpsBeB23",
+          "name": "grid",
+          "filePath": "plasmic/minerva_apps/images/grid.svg"
+        },
+        {
+          "id": "nQP0zxHnfwn",
+          "name": "Ellipse 4",
+          "filePath": "plasmic/minerva_apps/images/ellipse4.svg"
+        },
+        {
+          "id": "DTWKj0cPZI4",
+          "name": "Ellipse 4 Kopie 13",
+          "filePath": "plasmic/minerva_apps/images/ellipse4Kopie13.svg"
+        },
+        {
+          "id": "KkZEBGYg2S7",
+          "name": "form 8",
+          "filePath": "plasmic/minerva_apps/images/form8.svg"
+        },
+        {
+          "id": "X2KySPeYL1t",
+          "name": "form 9",
+          "filePath": "plasmic/minerva_apps/images/form9.svg"
+        },
+        {
+          "id": "A0woxSnRFyQn",
+          "name": "box form Kopie",
+          "filePath": "plasmic/minerva_apps/images/boxFormKopie.svg"
+        },
+        {
+          "id": "b44MgNTD8dj3",
+          "name": "box form 5",
+          "filePath": "plasmic/minerva_apps/images/boxForm5.svg"
+        },
+        {
+          "id": "MwLq8qU8xHEy",
+          "name": "Abgerundetes Rechteck 1",
+          "filePath": "plasmic/minerva_apps/images/abgerundetesRechteck1.svg"
+        },
+        {
+          "id": "fjY9bwr8U",
+          "name": "image",
+          "filePath": "plasmic/minerva_apps/images/image.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "HRdBVtImhJEVC",
+        "name": "Screen",
+        "projectId": "rP5KxAshUTdmscUyP4SP8d",
+        "contextFilePath": "plasmic/minerva_apps/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.174",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.174/dist/plasmic.schema.json"
+}
